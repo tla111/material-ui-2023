@@ -20,6 +20,9 @@ const App = () => {
                         <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                             Photo Album
                         </Typography>
+                        <Typography variant='h5' align='center' color='textSecondary' paragraph>
+                            Hello everyone, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </Typography>
                     </Container>
                 </div>
             </main>
