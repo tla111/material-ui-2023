@@ -27,7 +27,12 @@ const App = () => {
                             <Grid container spacing={2} justify='center'>
                                 <Grid item>
                                     <Button variant='contained' color='primary'>
-
+                                        See my photos
+                                    </Button>
+                                </Grid>
+                                <Grid item>
+                                    <Button variant='outlined' color='primary'>
+                                        Secondary Action
                                     </Button>
                                 </Grid>
                             </Grid>
