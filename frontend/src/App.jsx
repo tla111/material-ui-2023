@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core'
+import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core'
 import { PhotoCamera } from '@material-ui/icons'
 
 const App = () => {
@@ -23,6 +23,15 @@ const App = () => {
                         <Typography variant='h5' align='center' color='textSecondary' paragraph>
                             Hello everyone, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </Typography>
+                        <div>
+                            <Grid container spacing={2} justify='center'>
+                                <Grid item>
+                                    <Button variant='contained' color='primary'>
+
+                                    </Button>
+                                </Grid>
+                            </Grid>
+                        </div>
                     </Container>
                 </div>
             </main>
