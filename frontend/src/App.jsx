@@ -1,6 +1,12 @@
 import React from 'react'
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core'
 import { PhotoCamera } from '@material-ui/icons'
+import { makeStyles } from '@material-ui/core/styles'
+
+const useStyles = makeStyles(() => ({
+
+}))
+
 
 const App = () => {
     return (
@@ -16,7 +22,7 @@ const App = () => {
             </AppBar>
             <main>
                 <div>
-                    <Container maxWidth='sm' style={{ marginTop: '100px' }}>
+                    <Container maxWidth='sm' >
                         <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                             Photo Album
                         </Typography>
