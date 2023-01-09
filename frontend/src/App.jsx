@@ -3,12 +3,13 @@ import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, 
 import { PhotoCamera } from '@material-ui/icons'
 import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
 
 }))
 
 
 const App = () => {
+    const classes = useStyles();
     return (
         <>
             <CssBaseline />
@@ -21,7 +22,7 @@ const App = () => {
                 </Toolbar>
             </AppBar>
             <main>
-                <div>
+                <div className={classes.container}>
                     <Container maxWidth='sm' >
                         <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                             Photo Album
