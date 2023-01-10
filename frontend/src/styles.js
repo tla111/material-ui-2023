@@ -11,6 +11,18 @@ const useStyles = makeStyles((theme) => ({
     button: {
         marginTop: '40px',
     },
+    cardGrid: {
+
+    },
+    card: {
+
+    },
+    cardMedia: {
+
+    },
+    cardContent: {
+
+    },
 }))
 
 export default useStyles;
