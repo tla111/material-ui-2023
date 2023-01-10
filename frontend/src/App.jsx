@@ -11,7 +11,7 @@ const App = () => {
             <CssBaseline />
             <AppBar position='relative'>
                 <Toolbar>
-                    <PhotoCamera />
+                    <PhotoCamera className={classes.icon} />
                     <Typography variant='h6'>
                         Photo Album
                     </Typography>
@@ -26,7 +26,7 @@ const App = () => {
                         <Typography variant='h5' align='center' color='textSecondary' paragraph>
                             Hello everyone, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </Typography>
-                        <div>
+                        <div className={classes.button}>
                             <Grid container spacing={2} justify='center'>
                                 <Grid item>
                                     <Button variant='contained' color='primary'>
