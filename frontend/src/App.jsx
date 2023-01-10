@@ -42,6 +42,20 @@ const App = () => {
                         </div>
                     </Container>
                 </div>
+                <Container className={classes.cardGrid} maxWidth='md'>
+                    <Grid container spacing={4}>
+                        <Grid item>
+                            <Card className={classes.card}>
+                                <CardMedia className={classes.cardMedia} image='https://source.unsplash.com/random' />
+                                <CardContent className={classes.CardContent}>
+                                    <Typography gutterBottom varian='h5'>
+
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                    </Grid>
+                </Container>
             </main>
         </>
     )
