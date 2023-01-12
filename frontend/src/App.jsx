@@ -46,23 +46,25 @@ const App = () => {
                 </div>
                 <Container className={classes.cardGrid} maxWidth='md'>
                     <Grid container spacing={4}>
-                        <Grid item>
-                            <Card className={classes.card}>
-                                <CardMedia className={classes.cardMedia} image='https://source.unsplash.com/random' />
-                                <CardContent className={classes.CardContent}>
-                                    <Typography gutterBottom varian='h5'>
-                                        Heading
-                                    </Typography>
-                                    <Typography>
-                                        This is a media card. You can use this section to describe the content
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <Button size='small' color='primary'>View</Button>
-                                    <Button size='small' color='primary'>Edit</Button>
-                                </CardActions>
-                            </Card>
-                        </Grid>
+                        {cards.map(() => (
+                            <Grid item>
+                                <Card className={classes.card}>
+                                    <CardMedia className={classes.cardMedia} image='https://source.unsplash.com/random' />
+                                    <CardContent className={classes.CardContent}>
+                                        <Typography gutterBottom varian='h5'>
+                                            Heading
+                                        </Typography>
+                                        <Typography>
+                                            This is a media card. You can use this section to describe the content
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Button size='small' color='primary'>View</Button>
+                                        <Button size='small' color='primary'>Edit</Button>
+                                    </CardActions>
+                                </Card>
+                            </Grid>
+                        ))}
                     </Grid>
                 </Container>
             </main>
